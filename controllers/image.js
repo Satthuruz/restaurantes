@@ -32,6 +32,7 @@ function getImage(req, res){
 function getImages(res, req){
 
     var albumId = req.params.album;
+    //Aqui tengo el error
 
     if(!albumId){
         // Sacar todas las imagenes de la BDD
