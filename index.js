@@ -16,3 +16,4 @@ mongoose.connect('mongodb://localhost:27017/app_albums', (err, rest) => {
         });
     }
 });
+
