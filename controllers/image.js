@@ -29,7 +29,7 @@ function getImage(req, res){
     });
 }
 
-function getImages(res, req){
+function getImages(req, res){
 
     var albumId = req.params.album;
     //Aqui tengo el error
